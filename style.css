@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .mobile1{
+    width: 100%;
+    
+}
+header .mobile1 .menu {
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    display: block;
+    display:none; 
+}
+header .mobile1 .menu .menu-icon{
+    width: 100%;
+    height: 25%;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 200;
+letter-spacing: 1px;
+border-bottom: 1px solid rgba(0, 0,0, 0.1);
+}
+header .mobile1 .menu .menu-icon:hover p {
+color:greenyellow;
+}
+
+
+header .mobile1 .mobile p:hover .menu{
+    display: block;
+}
+header .mobile1 .mobile{
+    width: 100%;
+    height: 61px;
+ display: none;
+}
+header .mobile1 .mobile .logo{
+    width: 70px;
+    height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+   
+}
+header .mobile1 .mobile p{
+    font-size: 10px;
+    font-weight:100 ;
+    letter-spacing: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
+header .mobile1:hover .menu{
+    display: block;
+    
+}
+header .mobile1:hover .mobile{color: yellowgreen;
+
+}
+#check{
+    display:none ;
+}
+header .mobile1  #check:checked ~ * .menu{
+    display: block;
+}
+header .mobile1:hover .menu{
+    display:none;
+    
+} 
+
+
+
+
+
+
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/273898267_375766984610934_9068198209472984866_n.gif);
+    background-size: cover;
+}
+header nav{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+header nav .lgo1{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+header nav .lgo1 .text{
+    width: 10%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+}
+header nav .lgo1 .text p{
+    width: 100%;
+    font-size: 17px;
+color: #fff;
+text-align: center;
+font-weight: 100;
+letter-spacing: 2px;
+}
+header nav .lgo1 .text1{
+    width: 10%;
+    height: 100%;
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+header nav .lgo1 .text1 .text2{
+    width: 90%;
+    height: 60;
+    margin-top:30% ;
+}
+header nav .lgo1 .text:hover p{
+    color: greenyellow;
+}
+header nav .lgo2:hover i{
+    color: greenyellow;
+}
+header nav .lgo1 .text1 p{
+    color: #fff;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+header nav .lgo2{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+@media screen and (max-width:1023px)  {
+    header .mobile1 .mobile{
+        display: flex;
+
+      background-color: #fff;
+    
+    }  
+   header .mobile1 .mobile .logo{
+        width: 65px;
+        height: 100%;
+       }
+header nav {
+    display: none;
+}
+header .txt {
+    margin-top: 10%s;
+}
+header .txt .txt2{
+    margin-top: 10%;
+}
+ }
+
+
+
+header .txt{
+    margin-top: 25vh;
+    width: 100%;
+    height:20%;
+ 
+}
+header .txt .txt1{
+    width:86%;
+    height: 75%;
+display: inline-block;
+text-align: center;
+
+ margin-left: 7%;
+   
+  
+}
+header .txt .txt1 p{
+    font-size:4.7rem;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    letter-spacing: 5px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+header .txt .txt2{
+    width: 100%;
+    height: 25%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+header .txt .txt2 p{
+    margin-top: 5vh;
+    color: #fff;
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+}
+
+
+main{width:100% ;
+
+
+}
+main .container{
+    width: 100%;
+    
+    display: block;
+    margin-top: 10vh;
+}
+main .container .child1{
+    width: 30%;
+    height: 20vh;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10vh;
+}
+main .container .child1 p{
+    font-size: 10px;
+    color: #1d1a19;
+    text-align: center;
+ letter-spacing: 5px;
+    font-weight: 400;
+    font-family: Playfair Display SC,serif;
+}
+main .container .child1 h1{
+    color: #1d1a19;
+    border-bottom: 1px solid #49423b;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-style: italic;
+    font-size:3.5rem;
+    text-align: center;
+}
+main .container .child1 h2{
+    color:#1d1a19 ;
+    margin-top: 35px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-style:normal;margin-bottom: 10vh;
+}
+main .container .child1 h3{
+    color: #1d1a19;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-style: normal;
+}
+main .container .child2{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 5vh;
+}
+main .container .child2 .img{
+    width: 33%;
+    height: 415px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .container .child2 .img img{
+    width: 100%;
+    height: 100%;
+}
+main .container .child2 .img .after{
+    width: 80%;
+    height: 30vh;
+    font-size: 2rem;
+    text-align: center;
+margin-left: 10%;
+display: none;
+}
+main .container .child2 .img .after h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Playfair Display SC", serif;
+    font-style: normal;
+    font-weight: 100;
+    margin-top: 30%;
+}
+main .container .child2 .img .after h2{
+    margin-left: 10%;
+width: 80%;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+    font-family: "playfair display sc", serif;
+    border-bottom: 1px solid #1d1d1d;
+    
+}
+main .container .child2 .img .after h3{
+    font-size: 2rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 2px;
+}
+main .container .child2 .img .hover{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    display: none;
+}
+main .container .child2 .img .hover h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Playfair Display SC", serif;
+    font-style: normal;
+    font-weight: 100;
+    margin-top: 30%;
+}
+main .container .child2 .img .hover h2{
+margin-left: 10%;
+width: 80%;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+    font-family: "playfair display sc", serif;
+    border-bottom: 1px solid #fff;
+}
+main .container .child2 .img .hover h3{
+    font-size: 2rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 2px;
+}
+main .container .child2 .img:hover .hover{
+    display: block;
+} 
+
+
+
+.menu{
+    background-color: #f4efde;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: repeat(2,80vh);
+    justify-content: center;
+    align-items: center;
+
+}
+.menu .menu-text1{
+    grid-column: 1/4;
+    grid-row: 1/2;
+  text-align: center;
+  margin-bottom: 10vh;
+}
+.menu .menu-text1 .text-1{
+    color: #1d1a19;
+    font-size: 0.8rem;
+    font-weight: 200;
+    letter-spacing: 3px;
+    font-family: Playfair Display SC,serif;
+    font-style: normal;
+    width: 100%;
+    height: 5%;
+}
+.menu .menu-text1 .text-2{
+    width: 100%;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-family: playfair display sc,serif;
+    font-style: italic;
+    margin-bottom: 50px;
+
+}
+.menu .menu-text1 .text-2 p{
+    margin: auto;
+    width: 30%;
+    border-bottom: 1px solid #1d1d1d;
+}
+.menu .menu-text1 .text-3{
+    font-family:'Alice', serif;
+    font-size: 1.3rem;
+    width: 60%;
+    margin: auto;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+.menu .menu-text2{
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+.menu .menu-text2 h1{
+    font-size: 2rem;
+    font-family: Playfair Display SC,serif;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #444;
+    width:70% ;
+    margin: auto;
+}
+.menu .menu-text2 p{
+    font-family:'Alice', serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-style: normal;
+    margin-top: 20px;
+    font-size: 17px;
+}
+footer{
+    width: 100%;
+    height: 50vh;
+    background-color:#dba539;
+    display: block;
+}
+footer .icon1{
+    width: 100%;
+    height: 50%;
+}
+footer .icon1 .logo {
+    width: 100px;
+    height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+footer .icon1 p{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 5px;
+}
+footer .icon2{
+    width: 20%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+footer .icon2 .item{
+width: 33%;
+height: 100%;
+margin: auto;
+color: #fff;
+font-size: 24px;
+}
+footer .icon2 .item:hover i{
+    color: brown;
+}
+footer .icon3{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-family: Playfair Display SC,serif;
+}
+button{
+    width: 100%;
+    height: 7vh;
+    background-color: #805f1e;
+
+}
+button p{
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: Playfair Display SC,serif;
+    font-style: normal;
+}
+
+
+
+
+@media screen and (max-width:800px) {
+    .menu{
+        background-color: #f4efde;
+    grid-template-columns: repeat(1,100%);
+        grid-template-rows: repeat(4,80vh);
+    }
+    .menu .menu-text1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .menu .menu-text1 .text-2 p{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:640px) {
+    header .txt .txt1 p{
+        font-size: 2rem;
+        margin-bottom: 10vh;
+    }
+    main .container .child2
+    {
+        display: block;
+        margin-top: 10vh;
+    }
+    main .container .child2 .img{
+        width: 80%;
+        margin: auto;
+      display: block;
+    
+      height: 600px;
+     
+    }
+    main .container .child2 .img  img{
+      width: 100%;
+      height: 300px;
+      object-fit: contain;
+    }
+  
+    main .container .child1 h1{
+        color: #1d1a19;
+     
+        letter-spacing: 5px;
+        font-weight: 100;
+        font-style: italic;
+        font-size:1.5rem;
+        text-align: center;
+    }
+ 
+    main .container .child1 h3{
+        color: #1d1a19;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-style: normal;
+    }
+    main .container .child2 .img:hover .hover{
+        display: none;
+    } 
+    main .container .child2 .img .after{
+        display: block;
+    }
+}
